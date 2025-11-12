@@ -1,1 +1,17 @@
-hello new word adding try
+
+Step 1: create one folder in d: drive like JFS_FDP
+
+steps in command prompt:
+1. git init
+2. git add *.*
+3. git config --global user.email "you@example.com"
+4. git config --global user.name "Your Name"
+5. git commit -m "msg"
+6. git remote add origin "github repository url"
+7. git push origin master
+
+if you want add modification in the local repo that needs to be updated in remote repo then you can follow these three steps only
+1. git add *.*
+2. git status -------------------- for optional verification purpose
+3. git commit -m "msg"
+4. git push origin master
